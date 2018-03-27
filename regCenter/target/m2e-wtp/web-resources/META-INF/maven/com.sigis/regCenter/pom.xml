@@ -1,0 +1,110 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sigis</groupId>
+  <artifactId>regCenter</artifactId>
+  <packaging>war</packaging>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>regCenter Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  
+  <dependencies>
+    <dependency>
+        <groupId>org.apache.cxf</groupId>
+        <artifactId>cxf</artifactId>
+        <version>2.7.7</version>
+        <type>pom</type>
+    </dependency>
+    <dependency>
+        <groupId>org.apache.cxf</groupId>
+        <artifactId>cxf-rt-frontend-jaxws</artifactId>
+        <version>2.7.7</version>
+    </dependency>
+    <dependency>
+        <groupId>org.apache.cxf</groupId>
+        <artifactId>cxf-rt-transports-http</artifactId>
+        <version>2.7.7</version>
+    </dependency>
+    	
+    	
+   <dependency>  
+      <groupId>org.springframework</groupId>  
+      <artifactId>spring-core</artifactId>  
+      <version>4.0.0.M2</version>  
+    </dependency>  
+    
+    <dependency>  
+      <groupId>org.springframework</groupId>  
+      <artifactId>spring-beans</artifactId>  
+      <version>4.0.0.M2</version>  
+    </dependency>  
+      
+    <dependency>  
+      <groupId>org.springframework</groupId>  
+      <artifactId>spring-context</artifactId>  
+      <version>4.0.0.M2</version>  
+    </dependency>  
+      
+    <dependency>  
+      <groupId>org.springframework</groupId>  
+      <artifactId>spring-jdbc</artifactId>  
+      <version>4.0.0.M2</version>  
+    </dependency>  
+      
+      
+    <dependency>  
+      <groupId>org.springframework</groupId>  
+      <artifactId>spring-expression</artifactId>  
+      <version>4.0.0.M2</version>  
+    </dependency>  
+      
+    <dependency>  
+      <groupId>org.springframework</groupId>  
+      <artifactId>spring-web</artifactId>  
+      <version>4.0.0.M2</version>  
+    </dependency>  
+      
+    <dependency>  
+      <groupId>org.springframework</groupId>  
+      <artifactId>spring-webmvc</artifactId>  
+      <version>4.0.0.M2</version>  
+    </dependency>  
+      
+    <dependency>  
+      <groupId>org.springframework</groupId>  
+      <artifactId>spring-tx</artifactId>  
+      <version>4.0.0.M2</version>  
+    </dependency>  
+    
+    <dependency>
+            <groupId>org.apache.zookeeper</groupId>
+            <artifactId>zookeeper</artifactId>
+            <version>3.4.6</version>
+    </dependency>
+
+    <dependency>  
+            <groupId>javax.servlet</groupId>  
+            <artifactId>javax.servlet-api</artifactId>  
+            <version>3.0.1</version>  
+            <scope>provided</scope>  
+    </dependency> 
+    
+     <dependency>  
+        <groupId>dom4j</groupId>  
+        <artifactId>dom4j</artifactId>  
+        <version>1.6.1</version>  
+    </dependency>  
+    
+    <dependency>
+	    <groupId>net.sf.json-lib</groupId>
+	    <artifactId>json-lib</artifactId>
+	    <version>2.4</version>
+	    <classifier>jdk15</classifier>
+	</dependency>
+    
+  </dependencies>
+  
+  <build>
+    <finalName>regCenter</finalName>
+  </build>
+</project>
